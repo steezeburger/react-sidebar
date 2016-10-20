@@ -8,6 +8,7 @@
   "scripts": {
     "build": "babel src --out-dir dist-modules && webpack --colors --progress -p",
     "dev": "webpack --watch",
+    "devServer": "webpack-dev-server --progress --colors",
     "lint": "eslint src example/src"
   },
   "keywords": [

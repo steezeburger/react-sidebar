@@ -24,7 +24,7 @@ module.exports = {
 
   devServer: {
     contentBase: './example',
-    host: 'localhost',
+    host: '0.0.0.0',
     inline: true,
     info: false,
   },
